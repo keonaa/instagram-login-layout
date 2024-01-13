@@ -3,11 +3,12 @@ export default function Button({
     title="default",
     backgroundColor,
     color,
-    weight
+    weight,
+    border,
 
 }) {
     return(
-        <button className={styles.button} style={({color: color, backgroundColor: backgroundColor,})}>{title}</button>
+        <button className={styles.button} style={({color: color, backgroundColor: backgroundColor, border: border})}>{title}</button>
         
     )
 }

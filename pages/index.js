@@ -26,9 +26,9 @@ export default function Home() {
               <div className={styles.subSub}>
               <span className={styles.two}>Join today.</span>
                 <div className={styles.subSubSub}>
-                    <Button title="Sign up with Google"/>
+                    <Button title="Sign up with Google" border="none"/>
                       <div className={styles.weight}>
-                        <BoldButton title="Sign up with Apple"/> 
+                        <BoldButton title="Sign up with Apple" border="none"/> 
                       </div>
                     <div className={styles.mainLine}>
                       <div className={styles.line}></div> 
@@ -41,7 +41,7 @@ export default function Home() {
                 </div>
                 <span className={styles.three}>Already have an account?</span>
                   <div className={styles.signUp}>
-                    <BoldButton title="Sign in" backgroundColor="rgb(00,00,00)" color="rgb(29,161,242)"/>
+                    <BoldButton title="Sign in" backgroundColor="rgb(00,00,00)" color="rgb(29,161,242)" border="solid grey 0.2px"/>
                   </div>
                 </div>
               </div>
