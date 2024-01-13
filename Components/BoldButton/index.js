@@ -1,4 +1,4 @@
-import styles from './BoldButton.module.css'
+import styles from './boldButton.module.css'
 export default function Button({
     title="default",
     backgroundColor,
