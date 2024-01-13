@@ -35,13 +35,13 @@ export default function Home() {
                        or
                       <div className={styles.line}></div>
                     </div>
-                <BoldButton title="Create Account" backgroundColor="rgb(29,161,242)" color="rgb(255,255,255)"/>
+                <BoldButton title="Create Account" backgroundColor="rgb(29,161,242)" color="rgb(255,255,255)" border="none"/>
                 <div className={styles.Text}>
                   <span className={styles.whiteText}>By signing up, you agree to the<span className={styles.blueText}> Terms of Service </span>and <span className={styles.blueText}>Privacy Policy</span>, including <span className={styles.blueText}>Cookie Use.</span></span>
                 </div>
                 <span className={styles.three}>Already have an account?</span>
                   <div className={styles.signUp}>
-                    <BoldButton title="Sign up" backgroundColor="rgb(00,00,00)" color="rgb(29,161,242)"/>
+                    <BoldButton title="Sign in" backgroundColor="rgb(00,00,00)" color="rgb(29,161,242)"/>
                   </div>
                 </div>
               </div>
