@@ -16,30 +16,38 @@ export default function Home() {
       <header>
 
       </header>
-      <main className={styles.page} >
-      <div className={styles.one}>Happening Now</div>
-      <div className={styles.main}>
-        <div className={styles.logoContainer}>
-        <img src={'/images/twitterLogo.svg'}></img>
-      </div>
-        <div className={styles.sub}>
-          <span className={styles.two}>Join Today.</span>
-          <Button title="Sign up with Google"/>
-          <div className={styles.weight}><BoldButton title="Sign up with Apple"/> </div>
-        <div className={styles.mainLine}>
-          <div className={styles.line}></div> 
-            or
-          <div className={styles.line}></div>
-        </div>
-          <BoldButton title="Create Account" backgroundColor="rgb(29,161,242)" color="rgb(255,255,255)"/>
-          <div className={styles.Text}>
-          <span className={styles.whiteText}>By signing up, you agree to the<span className={styles.blueText}>Terms of Service</span>and <span className={styles.blueText}>Privacy Policy</span>, including <span className={styles.blueText}>Cookie Use.</span></span>
+      <main>
+        <div className={styles.main}>
+            <div className={styles.logoContainer}>
+              <img src={'/images/twitterLogo.svg'}></img>
+            </div>
+          <div className={styles.sub}>
+            <div className={styles.one}>Happening now</div>
+              <div className={styles.subSub}>
+              <span className={styles.two}>Join today.</span>
+                <div className={styles.subSubSub}>
+                    <Button title="Sign up with Google"/>
+                      <div className={styles.weight}>
+                        <BoldButton title="Sign up with Apple"/> 
+                      </div>
+                    <div className={styles.mainLine}>
+                      <div className={styles.line}></div> 
+                       or
+                      <div className={styles.line}></div>
+                    </div>
+                <BoldButton title="Create Account" backgroundColor="rgb(29,161,242)" color="rgb(255,255,255)"/>
+                <div className={styles.Text}>
+                  <span className={styles.whiteText}>By signing up, you agree to the<span className={styles.blueText}> Terms of Service </span>and <span className={styles.blueText}>Privacy Policy</span>, including <span className={styles.blueText}>Cookie Use.</span></span>
+                </div>
+                <span className={styles.three}>Already have an account?</span>
+                  <div className={styles.signUp}>
+                    <BoldButton title="Sign up" backgroundColor="rgb(00,00,00)" color="rgb(29,161,242)"/>
+                  </div>
+                </div>
+              </div>
           </div>
-          <span className={styles.three}>Already have an account?</span>
-          <div className={styles.signUp}><BoldButton title="Sign up" backgroundColor="rgb(00,00,00)" color="rgb(29,161,242)"/></div>
-      </div>
-      </div>
-      <Footer/>
+        </div>
+        <Footer/>
       </main>
     </>
   )

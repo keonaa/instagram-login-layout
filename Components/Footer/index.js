@@ -19,6 +19,7 @@ export default function Footer() {
                 <li>Marketing</li>
                 <li>X for Business</li>
                 <li>Developers</li>
+                <li>Directory</li>
                 <li>Settings</li>
                 <li>© 2024 X Corp.</li>
             </ul>
